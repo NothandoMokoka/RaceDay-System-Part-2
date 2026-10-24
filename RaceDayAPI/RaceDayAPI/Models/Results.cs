@@ -1,4 +1,5 @@
-﻿using System;
+// Represents the results recorded for a race event participant.
+using System;
 
 namespace RaceDayAPI.Models
 {
