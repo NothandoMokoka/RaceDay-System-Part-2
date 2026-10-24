@@ -22,7 +22,7 @@ namespace RaceDayAPI.Controllers
 
         private int? UserID =>
             HttpContext.Session.GetInt32("UserID");
-
+// Retrieves enrollment records based on the user's role and access.
         [HttpGet]
         public async Task<IActionResult> GetEnrollments()
         {
