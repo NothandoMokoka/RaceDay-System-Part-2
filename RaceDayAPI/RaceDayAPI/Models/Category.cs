@@ -1,4 +1,5 @@
-﻿namespace RaceDayAPI.Models
+// Represents a category linked to a race event.
+namespace RaceDayAPI.Models
 {
     public class Category
     {
