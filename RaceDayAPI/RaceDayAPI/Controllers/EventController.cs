@@ -16,7 +16,7 @@ namespace RaceDayAPI.Controllers
         {
             _context = context;
         }
-
+// Checks whether the logged-in user has the Organizer role.
         private bool IsOrganizer()
         {
             return HttpContext.Session.GetString("RoleName") == "Organizer";
