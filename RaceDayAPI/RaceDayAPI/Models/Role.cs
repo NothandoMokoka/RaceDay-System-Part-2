@@ -1,4 +1,5 @@
-﻿namespace RaceDayAPI.Models
+// Represents a user role that determines access permissions.
+namespace RaceDayAPI.Models
 {
     public class Role
     {
