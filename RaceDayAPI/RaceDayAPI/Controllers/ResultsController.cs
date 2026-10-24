@@ -22,7 +22,7 @@ namespace RaceDayAPI.Controllers
 
         private string? RoleName =>
             HttpContext.Session.GetString("RoleName");
-
+// Retrieves race results according to the user's role and access.
         [HttpGet]
         public async Task<IActionResult> GetResults()
         {
