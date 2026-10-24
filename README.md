@@ -86,6 +86,7 @@ Repository: https://github.com/NothandoMokoka/RaceDay-System-Part-2
 8. GitHub Actions
 
 A GitHub Actions workflow named RaceDay Build and Test was added to automate the process of restoring dependencies, building the solution and running unit tests.
+<img width="1883" height="692" alt="image" src="https://github.com/user-attachments/assets/ccb8a0d4-0c52-4071-97ab-0d2247d34899" />
 
 The initial workflow run failed because the workflow could not locate RaceDayAPI.sln at the repository root. The solution file path must be corrected before the workflow can complete successfully.
 
