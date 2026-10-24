@@ -19,6 +19,7 @@ builder.Services.AddDbContext<RaceDayContext>(options =>
     options.UseSqlServer(
         builder.Configuration.GetConnectionString("RaceDayConnection")));
 builder.Services.AddScoped<IPasswordHasher<User>, PasswordHasher<User>>();
+// Configures the services and settings required to run the API.
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
