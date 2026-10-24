@@ -7,6 +7,7 @@ namespace RaceDayAPI.Tests
     public class EventValidationTests
     {
         [Fact]
+        // Verifies that an event request with valid data passes validation.
         public void EventRequest_WithValidData_PassesValidation()
         {
             var request = new EventRequest
