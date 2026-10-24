@@ -1,4 +1,5 @@
-﻿using System;
+// Represents a user's enrollment in a race event.
+using System;
 
 namespace RaceDayAPI.Models
 {
