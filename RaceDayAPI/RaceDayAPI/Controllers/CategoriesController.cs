@@ -21,7 +21,7 @@ namespace RaceDayAPI.Controllers
         {
             return HttpContext.Session.GetString("RoleName") == "Organizer";
         }
-
+// Retrieves event categories from the database.
         [HttpGet]
         public async Task<IActionResult> GetCategories()
         {
