@@ -1,4 +1,5 @@
-﻿namespace RaceDayAPI.DTOs
+// Defines the user information returned by the API.
+namespace RaceDayAPI.DTOs
 {
     public class UserResponseDto
     {
