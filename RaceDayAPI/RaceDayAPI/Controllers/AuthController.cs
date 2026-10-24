@@ -21,7 +21,7 @@ namespace RaceDayAPI.Controllers
             _context = context;
             _passwordHasher = passwordHasher;
         }
-
+// Handles user login requests and authentication.
         [HttpPost("register")]
         public async Task<IActionResult> Register(RegisterRequest request)
         {
