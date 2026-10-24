@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+// Manages the application's database entities and database access.
+using Microsoft.EntityFrameworkCore;
 using RaceDayAPI.Models;
 
 namespace RaceDayAPI.Data
