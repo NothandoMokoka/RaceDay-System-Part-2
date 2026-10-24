@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+// Defines the data required when creating or updating a race event.
+using System.ComponentModel.DataAnnotations;
 
 namespace RaceDayAPI.DTOs
 {
