@@ -21,7 +21,7 @@ namespace RaceDayAPI.Controllers
 
         private string? RoleName =>
             HttpContext.Session.GetString("RoleName");
-
+// Retrieves user information through the API.
         [HttpGet]
         public async Task<IActionResult> GetUsers()
         {
