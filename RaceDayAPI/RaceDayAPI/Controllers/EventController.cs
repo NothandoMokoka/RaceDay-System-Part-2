@@ -42,7 +42,7 @@ namespace RaceDayAPI.Controllers
 
             return Ok(events);
         }
-
+// Retrieves event records from the database for the API response.
         [HttpGet("{id:int}")]
         public async Task<IActionResult> GetEvent(int id)
         {
