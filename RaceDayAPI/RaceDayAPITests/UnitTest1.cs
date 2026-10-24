@@ -28,7 +28,7 @@ namespace RaceDayAPI.Tests
 
             Assert.True(isValid);
         }
-
+// Verifies that an event request with an invalid distance fails validation.
         [Fact]
         public void EventRequest_WithInvalidDistance_FailsValidation()
         {
