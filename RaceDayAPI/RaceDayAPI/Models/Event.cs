@@ -1,4 +1,5 @@
-﻿using System;
+// Represents a race event and its stored information.
+using System;
 
 namespace RaceDayAPI.Models
 {
